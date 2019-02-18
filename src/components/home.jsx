@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class home extends Component {
+class Home extends Component {
 
     componentDidMount() {
         console.log(this.props.match);
@@ -8,9 +8,9 @@ class home extends Component {
         
     render() {
         return (
-            <h1>Home</h1>
+            <h1>Studio Ghibli Wiki</h1>
         );
     }
 }
 
-export default home;
+export default Home;

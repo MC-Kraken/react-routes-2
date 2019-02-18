@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LocationProps(props) {
 
-    const { name, climate, terrain, surface_water, residents, films } = props.location;
+    const { name, climate, terrain, surface_water} = props.location;
 
     return (
         <>
@@ -11,8 +11,6 @@ export default function LocationProps(props) {
                 <li>Climate: { climate }</li>
                 <li>Terrain: { terrain }</li>
                 <li>Surface Water: { surface_water }</li>
-                <li>Residents: { residents }</li>
-                <li>Film: { films }</li>
             </ul>
         </>
     )

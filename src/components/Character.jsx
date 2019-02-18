@@ -20,10 +20,10 @@ class Character extends Component {
         const character = this.state.character
 
         return (
-
+                
             <>
                 
-                    <CharacterProps film={character} />
+                    <CharacterProps character={character} />
                 
             </>
 
